@@ -34,6 +34,11 @@ for REPO_FILE in "${!CONFIG_MAP[@]}"; do
     
     echo "Building $TARGET..."
     
+    # Backup existing file if it exists
+    if [ -f "$TARGET" ] || [ -L "$TARGET" ]; then
+        mv "$TARGET" "${TARGET}.old"
+    fi
+    
     # Clear or create the target file
     > "$TARGET"
     
