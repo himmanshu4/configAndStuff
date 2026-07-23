@@ -13,6 +13,7 @@ echo "Setting up dotfiles..."
 # Syntax: ["repo_file"]="target_path"
 declare -A CONFIG_MAP=(
     ["zshrc"]="$HOME/.zshrc"
+    ["starship.toml"]="$HOME/.config/starship.toml"
     ["systemd/user/kitty-theme@.service"]="$HOME/.config/systemd/user/kitty-theme@.service"
     ["systemd/user/kitty-theme-day.timer"]="$HOME/.config/systemd/user/kitty-theme-day.timer"
     ["systemd/user/kitty-theme-night.timer"]="$HOME/.config/systemd/user/kitty-theme-night.timer"
