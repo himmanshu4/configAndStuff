@@ -102,11 +102,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-
-# Added by Antigravity CLI installer
-export PATH="/home/himanshu/.local/bin:$PATH"
-export PATH="/home/himanshu/.local/bin:$PATH"
-export PATH="$HOME/.pico-sdk/picotool/2.2.0-a4/picotool:$PATH"
-export PATH="$PATH:$HOME/.pico-sdk/picotool/2.2.0-a4/picotool/"
-export PATH="$PATH:$HOME/bin"
