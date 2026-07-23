@@ -1,0 +1,10 @@
+[Unit]
+Description=Trigger kitty day theme at 5 AM
+
+[Timer]
+OnCalendar=*-*-* 05:00:00
+Unit=kitty-theme@day.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target

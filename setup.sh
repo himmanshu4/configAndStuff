@@ -13,6 +13,9 @@ echo "Setting up dotfiles..."
 # Syntax: ["repo_file"]="target_path"
 declare -A CONFIG_MAP=(
     ["zshrc"]="$HOME/.zshrc"
+    ["systemd/user/kitty-theme@.service"]="$HOME/.config/systemd/user/kitty-theme@.service"
+    ["systemd/user/kitty-theme-day.timer"]="$HOME/.config/systemd/user/kitty-theme-day.timer"
+    ["systemd/user/kitty-theme-night.timer"]="$HOME/.config/systemd/user/kitty-theme-night.timer"
     # Examples of how to add more tools in the future:
     # ["vimrc"]="$HOME/.vimrc"
     # ["nvim/init.lua"]="$HOME/.config/nvim/init.lua"

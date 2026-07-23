@@ -1,0 +1,6 @@
+[Unit]
+Description=Set Kitty terminal theme to %i
+
+[Service]
+Type=oneshot
+ExecStart=/home/himanshu/.config/kitty/toggle-theme.sh %i
